@@ -94,7 +94,7 @@ export default function Sidebar() {
                         ))}
                       </DisclosurePanel>
                     </Disclosure>
-                  }
+                  )}
                 </li>
               ))}
             </ul>

@@ -6,18 +6,23 @@ import {
 import { ChevronRightIcon } from "@heroicons/react/20/solid";
 
 const navigation = [
-  { name: "Dashboard", href: "#", current: true },
   {
-    name: "Teams",
+    name: "Laptops & Computers",
     current: false,
     children: [
-      { name: "Engineering", href: "#" },
-      { name: "Human Resources", href: "#" },
-      { name: "Customer Success", href: "#" },
+      { name: "Laptops", href: "#" },
+      { name: "Hard Drives, SSD & Storage", href: "#" },
+      { name: "Monitors", href: "#" },
+      { name: "Mice", href: "#" },
+      { name: "Keyboards", href: "#" },
+      { name: "Desktops", href: "#" },
+      { name: "Laptop Accessories", href: "#" },
+      { name: "Cables & Connectors", href: "#" },
+      { name: "Computer Accessories & Peripherals", href: "#" },
     ],
   },
   {
-    name: "Projects",
+    name: "TVs & Projectors",
     current: false,
     children: [
       { name: "GraphQL API", href: "#" },
@@ -26,9 +31,6 @@ const navigation = [
       { name: "New Customer Portal", href: "#" },
     ],
   },
-  { name: "Calendar", href: "#", current: false },
-  { name: "Documents", href: "#", current: false },
-  { name: "Reports", href: "#", current: false },
 ];
 
 function classNames(...classes) {
@@ -37,7 +39,7 @@ function classNames(...classes) {
 
 export default function Sidebar() {
   return (
-    <div className="flex grow flex-col gap-y-5 overflow-y-auto border-r border-gray-200 bg-white px-6">
+    <div className="flex flex-col gap-y-5 overflow-y-auto border-r border-gray-200 bg-white px-6">
       <div className="flex h-16 shrink-0 items-center">
         <img
           alt="Your Company"

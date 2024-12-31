@@ -1,5 +1,5 @@
 import "./globals.css";
-import Sidebar from "@/components/navigation";
+import Sidebar from "@/app/(main)/_components/sidebar";
 
 export const metadata = {
   title: "GranTech Product Rankings",
@@ -10,10 +10,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
-        <Sidebar />
-        {children}
-      </body>
+      <body className="flex h-screen">{children}</body>
     </html>
   );
 }

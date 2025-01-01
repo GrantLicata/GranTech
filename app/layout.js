@@ -1,5 +1,8 @@
+import { Inter } from "next/font/google";
+
 import "./globals.css";
-import Sidebar from "@/app/(main)/_components/sidebar";
+
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "GranTech Product Rankings",
@@ -10,7 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="flex h-screen">{children}</body>
+      <body className={inter.className}>{children}</body>
     </html>
   );
 }

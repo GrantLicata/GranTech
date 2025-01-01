@@ -1,7 +1,7 @@
-const MarketingLayout = () => {
+const MarketingLayout = ({ children }) => {
   return (
     <div className="h-full">
-      {/* <Navbar /> */}
+      <Navbar />
       <main className="h-full pt-40">{children}</main>
     </div>
   );

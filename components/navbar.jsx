@@ -2,14 +2,9 @@
 
 import { useScrollTop } from "@/hooks/use-scroll-top";
 import { cn } from "@/lib/utils";
-import { useEffect } from "react";
 
 export const Navbar = () => {
   const scrolled = useScrollTop();
-
-  useEffect(() => {
-    console.log(scrolled);
-  }, [scrolled]);
 
   return (
     <div

@@ -1,4 +1,4 @@
-export const Heading = () => {
+export const Header = () => {
   return (
     <div className="max-w-3xl lg:max-w-7xl p-6 space-y-4 rounded-[calc(theme(borderRadius.lg)+1px)] lg:rounded-[calc(2rem+1px)]">
       <h1 className="text-3xl sm:text-6xl md:text-7xl font-bold">

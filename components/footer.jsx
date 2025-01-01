@@ -1,6 +1,6 @@
 export const Footer = () => {
   return (
-    <div className="flex sm:justify-between items-center w-full p-6 bg-background z-50 dark:bg-[#1F1F1F]">
+    <div className="flex sm:justify-between items-center w-full p-6 bg-gray-600 z-50">
       <p className="text-muted-foreground text-sm font-medium text-center sm:text-left w-full">
         © 2023 Storynote, Inc.
       </p>
